@@ -147,8 +147,7 @@ a:visited {
     text-wrap: pretty;
 }
 
-
-h3 {
+.perfume-title {
     font-size: 1.4rem;
     letter-spacing: 1.5px;
     margin: 20px 0 20px 0;
@@ -187,31 +186,19 @@ h3 {
 
 
 
-
+.line {
+    width: 100%;
+    height: 1.2px;
+    background-color: black;
+}
 
 
 footer{
-    color: #ffefc1;
-    text-shadow: 0px 0px 9px #f66b40;
-    background-color: black;
+    color: #000;
     text-align: center;
     padding: 15px;
-    width: 100%;
 }
 
-p{
-    font-size: 15px;
-    height: fit-content;
-}
-
-i{
-    color: #ffefc1;
-    font-size: 18px;
-    text-align: center;
-    margin: 20px;
-    border-radius: 10%;
-    padding: 15px;
-}
 .fa-youtube:hover{
     background-color: red;
     color: white;
@@ -249,11 +236,29 @@ i{
 }
 
 .footer-container {
-    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes-container {
+    width: fit-content;
     height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+
+.fab{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 10px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.redes-title {
+    margin: 20px;
 }
 
 .footer-icons {
@@ -261,7 +266,52 @@ i{
 }
 
 .footer-rights {
+    font-size: 15px;
+    height: fit-content;
     margin: 20px;
 }
 
+.newsletter-container {
+    width: fit-content;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.newsletter-title, .redes-title {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+    margin: 20px;
+}
+
+.newsletter-title {
+    margin-bottom: 10px;
+}
+
+.newsletter-p {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 680;
+}
+
+.newsletter-inputs-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.newsletter-input {
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.email {
+    width: 17dvw;
+}
+
+.submit {
+    width: 5dvw;
+    cursor: pointer;
+}
