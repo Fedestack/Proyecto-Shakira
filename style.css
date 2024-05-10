@@ -60,7 +60,7 @@ a {
     width: 150px;
     height: 50px;
     padding: 10px 10px 10px 10px;
-    transition: color 0.25s ease;
+    transition: color 0.1s ease-in-out;
 }
 
 .menu-item:hover {
@@ -233,6 +233,7 @@ footer{
 .footer-container {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 40px;
 }
 
 .redes-container, .newsletter-container {
